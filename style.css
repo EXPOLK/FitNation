@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* Use the font for headings */
+h1, h2, h3, h4, h5, h6, th {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder; /* Use the 700 weight for bold */
+}
+
+/* Use the font for other elements as needed */
+p, a, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Use the 400 weight for normal */
+}
+
+
+body {
+  font-size: 16px;
+  color: #333;
+  margin-left: 5%;
+  background-size: cover;
+  background: fixed;
+  overflow-x: hidden;
+}
