@@ -113,12 +113,12 @@ nav a {
 }
 
 
-#featureDivMain{
+#programmeDiv{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#featureDiv{
+#programmeDivChild{
   width: 20%;
   height: 300px;
   font-size: 20px;
@@ -127,13 +127,27 @@ nav a {
   border-radius: 10px;
   margin-right: 20px;
 
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  display: block;
+  text-align: center;
   
 }
+#programmeImg{
+  width: 100px;
+  height: 100px;
+  padding-bottom: 50px;
+  scale: 100%;
+  transition: 0.3s;
+  margin: 0px;
+}
 
+#featureDivIcon:hover{
+  scale: 120%;
+  transition: 0.3s;
+}
 
 
 
