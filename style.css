@@ -36,6 +36,10 @@ button{
   transition: 0.5s;
 }
 
+#navlogo{
+  cursor: pointer;
+}
+
 #hero{
   display: flex; 
   align-content: center;
@@ -74,8 +78,8 @@ nav a {
 
 #loginBtn{
   margin-top: 30px;
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 45px;
   border: none;
   background-color: transparent;
   font-size: 16px;
@@ -103,7 +107,7 @@ nav a {
 
 #heroBtn{
   width: 150px;
-  height: 40px;
+  height: 45px;
   transition: 0.5s;
 }
 #heroBtn:hover{
@@ -133,7 +137,11 @@ nav a {
   justify-content: center; */
   display: block;
   text-align: center;
-  
+  transition: 0.5s;
+}
+#programmeDivChild:hover{
+  scale: 110%;
+  transition: 0.5s;
 }
 #programmeImg{
   width: 100px;
@@ -144,10 +152,58 @@ nav a {
   margin: 0px;
 }
 
-#featureDivIcon:hover{
-  scale: 120%;
-  transition: 0.3s;
+
+
+#pricingDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+#pricingDivChild{
+  width: 20%;
+  height: 300px;
+  font-size: 20px;
+  color: white;
+
+  background-color: #424242;
+  /* background-image: linear-gradient(45deg, #424242 0%, #000000 100%); */
+
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin-right: 20px;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  display: block;
+  transition: 0.5s;
+  padding-top: 40px;
+  padding-left: 30px; 
+  padding-right: 10px;
+}
+#pricingDivChild:hover{
+  scale: 110%;
+  transition: 0.5s;
+}
+#joinBtn{
+  margin-top: 30px;
+  width: 150px;
+  height: 45px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  border: none;
+  justify-items:flex-end;
+  transition: 0.5s;
+}
+#joinBtn:hover{
+  background-color: #797979;
+  color: white;
+  transition: 0.5s;
+}
+
 
 
 
@@ -258,9 +314,29 @@ footer {
 }
   
 #newsletter-input {
-  flex: 1;
   width: 100%;
+  height: 40px;
   max-width: 250px;
+  margin: 0;
   margin-right: 10px;
   border-radius: 5px;
+
+}
+#newsletter-button{
+  width: 100%;
+  height: 40px;
+  max-width: 250px;
+  margin-top: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #333;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  transition: 0.5s;
+}
+#newsletter-button:hover{
+  background-color: #F0F0F0;
+  color: #000;
+  transition: 0.5s;
 }

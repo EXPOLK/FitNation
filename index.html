@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>FitNation</title>
 </head>
 <body>
     <div style="display: flex; margin-left: 6%; margin-right: 6%;">
         <div>
             <!-- <h1>FitNation</h1> -->
-            <img src="logo.png" alt="" style="height: 80px;">
+            <img src="logo.png" alt="" style="height: 80px; " id="navlogo">
         </div>
         <div style="margin-top: 22px;">
             <nav>
                 <ul>
                 
-                <li><a href="#vehicles">Vehicles</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#payment">Payment</a></li>
+                <li><a href="#programmes">Programs</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#news">Newsletters</a></li>
                 <li><a href="#contact-us">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div style="margin-left: 35%;">
+        <div style="margin-left: 30%; margin-top: -10px;">
             <button id="loginBtn" style="color: black;">Log in</button>
             <button id="signupBtn">Register</button>
         </div>
@@ -83,6 +84,59 @@
     </div>
 
 
+    <div id="pricing" style="margin-bottom: 80px;">
+
+        <div style="display: flex; flex-direction: column;">
+            <h1 style="font-size: 80px; font-family: 'Bebas Neue', cursive;">Member Pricing Plans</h1> 
+            <p style="margin-top: -10px; margin-left: 20px; margin-bottom: 50px; font-size: 23px;">We provide pricing plans for new members. You can join the <br>
+                program after selecting the price plan option
+            </p>
+        </div>
+
+        <div id="pricingDiv">
+
+            <div id="pricingDivChild">
+                <h2 style="margin: 0; margin-top: -20px; margin-bottom: 10px; font-size: 30px;">Weekly Plan</h2>
+                <h1 style="margin: 0; margin-top: -20px; margin-bottom: 10px; font-size: 55px;">$10</h1>
+                <hr style="width: 150px; height: 1px; border-radius: 5px; background-color: gray; border: none; margin: 0; margin-top: 22px; margin-bottom: 22px;">
+
+                <p style="margin: 0;">
+                    <i class="fa-sharp fa-regular fa-circle-check"></i> Consultation With Coach<br>
+                    <i class="fa-sharp fa-regular fa-circle-check"></i> 3 Hours of Practise
+                </p>
+                <button id="joinBtn">Join Now</button>
+            </div>
+            <div id="pricingDivChild">
+                <h2 style="margin: 0; margin-top: -20px; margin-bottom: 10px; font-size: 30px;">Monthly Plan</h2>
+                <h1 style="margin: 0; margin-top: -20px; margin-bottom: 10px; font-size: 55px;">$35</h1>
+                <hr style="width: 150px; height: 1px; border-radius: 5px; background-color: gray; border: none; margin: 0; margin-top: 22px; margin-bottom: 22px;">
+
+                <p style="margin: 0;">
+                    <i class="fa-sharp fa-regular fa-circle-check"></i> Consultation With Coach<br>
+                    <i class="fa-sharp fa-regular fa-circle-check"></i> 3 Hours of Practise<br>
+                    <i class="fa-sharp fa-regular fa-circle-check"></i> Free Consumption
+                </p>
+                <button id="joinBtn">Join Now</button>
+            </div>
+            <div id="pricingDivChild">
+                <h2 style="margin: 0; margin-top: -20px; margin-bottom: 10px; font-size: 30px;">Yearly Plan</h2>
+                <h1 style="margin: 0; margin-top: -20px; margin-bottom: 10px; font-size: 55px;">$99</h1>
+                <hr style="width: 150px; height: 1px; border-radius: 5px; background-color: gray; border: none; margin: 0; margin-top: 22px; margin-bottom: 22px;">
+
+                <p style="margin: 0;">
+                    <i class="fa-sharp fa-regular fa-circle-check"></i> Consultation With Coach<br>
+                    <i class="fa-sharp fa-regular fa-circle-check"></i> 8 Hours of Practise<br>
+                    <i class="fa-sharp fa-regular fa-circle-check"></i> Free Consumption<br>
+                    <i class="fa-sharp fa-regular fa-circle-check"></i> Free Fitness Shirts
+                </p>
+                <button id="joinBtn">Join Now</button>
+            </div>
+            
+
+        </div>
+
+
+    </div>
 
 
 
