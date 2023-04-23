@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* Use the font for headings */
 h1, h2, h3, h4, h5, h6, th {
@@ -20,4 +21,232 @@ body {
   background-size: cover;
   background: fixed;
   overflow-x: hidden;
+}
+
+button{
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  background-color: #333;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}button:hover{
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#hero{
+  display: flex; 
+  align-content: center;
+}
+
+hr{
+  margin-top: 75px;
+  width: auto;
+  height: 5px solid gray;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  margin-left: 70%;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px; 
+}
+
+nav li:last-child {
+  margin-right: 0; 
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#loginBtn{
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  transition: 0.5s;
+}
+#loginBtn:hover{
+  background-color: #F0F0F0;
+  transition: 0.5s;
+}
+#signupBtn{
+  margin-top: 30px;
+  width: 150px;
+  height: 45px;
+  background-color: #333;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  transition: 0.5s;
+}
+#signupBtn:hover{
+  background-color: #F0F0F0;
+  color: #000;
+  transition: 0.5s;
+}
+
+#heroBtn{
+  width: 150px;
+  height: 40px;
+  transition: 0.5s;
+}
+#heroBtn:hover{
+  background-color: #F0F0F0;
+  color: #000;
+  transition: 0.5s;
+}
+
+
+#featureDivMain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#featureDiv{
+  width: 20%;
+  height: 300px;
+  font-size: 20px;
+
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+
+
+#news{
+  background-color: #1f1f1f;
+  background-image: linear-gradient(0deg, #1f1f1f 0%, #4e4d4d 100%);
+  height: 300px;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 30px;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#newschild{
+  display: block;
+  text-align: center;
+}
+#subscribe{
+  margin-top: 30px;
+  width: 150px;
+  height: 45px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  border: none;
+  transition: 0.5s;
+}
+#subscribe:hover{
+  background-color: #797979;
+  color: white;
+  transition: 0.5s;
+}
+
+
+
+
+
+footer {
+  padding: 30px 0;
+}
+  
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+  
+#footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+  
+#footer-column {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+  
+#footer-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+  
+#social-icons {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  
+#social-icons li {
+  margin-right: 10px;
+}
+  
+#social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+  
+#social-icons a:hover {
+  background-color: #f44336;
+}
+  
+#footer-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+  
+#newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+#newsletter-input {
+  flex: 1;
+  width: 100%;
+  max-width: 250px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
